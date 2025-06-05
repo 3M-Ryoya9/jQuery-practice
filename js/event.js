@@ -3,7 +3,7 @@ $(function(){
     console.log("ボタンがクリックされました。")
 });*/
 
-  /*$("div").on({
+  $("div").on({
     "click": () => {
       // 背景を赤
       $("div").css("background-color","red");
@@ -22,15 +22,15 @@ $(function(){
       $("div").css("background-color","gray");
       $("div").text("mouseout");
     },
-  });*/
+  });
   // document は 今開いているHTMLページ全体のこと
   // ブラウザが読み込んでる「Webページそのもの（DOM全体）」の入り口
-  $(document).on("click keydown", (e) => {
+  /*$(document).on("click keydown", (e) => {
     if (e.type === "click"){
       $("div").text("クリックされました！");
     }
     if (e.type === "keydown"){
       $("div").text("キーが押されました！")
     }
-  });
+  });*/
 });
