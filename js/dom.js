@@ -16,7 +16,7 @@ $(function() {
     $("li:last").remove();
 
     if(num < 0){
-      num = 0;
+      num = 0; 
     }
   });
 
