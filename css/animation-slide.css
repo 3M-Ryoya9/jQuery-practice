@@ -1,0 +1,9 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  /* CSSでtransitionプロパティを指定することで、
+  jQueryのcss()メソッドを実行したときに
+  指定したプロパティの値になるまでアニメーション */
+  transition: all 1s ease;
+}
